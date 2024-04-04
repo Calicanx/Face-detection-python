@@ -1,7 +1,7 @@
 import cv2
 
 # Load the image
-img = cv2.imread('photo.jpeg')
+img = cv2.imread('object.jpg')
 
 # Convert the image to grayscale
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
